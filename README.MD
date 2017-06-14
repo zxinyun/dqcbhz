@@ -7,3 +7,9 @@ Me.Text = String.Format("关于 {0}", "洋芋哥")
         'Me.LabelCopyright.Text = My.Application.Info.Copyright
         Me.LabelCompanyName.Text = "现住址：" + "云南昆明"
         Me.TextBoxDescription.Text = "我就是我，颜色昏暗的烟火！" + vbNewLine + "一个学着独立行走的宅男....."
+
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin https://github.com/zxinyun/dqcbhz.git
+  git push -u origin master
