@@ -480,10 +480,10 @@ Partial Class main
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Label1.Location = New System.Drawing.Point(177, 19)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(203, 17)
+        Me.Label1.Size = New System.Drawing.Size(120, 17)
         Me.Label1.TabIndex = 6
         Me.Label1.Tag = "地球村论坛"
-        Me.Label1.Text = "http://bbs.evsoft.cn:90/portal.php"
+        Me.Label1.Text = "http://bbs.evsoft.cn"
         '
         'LinkLabel6
         '
@@ -618,7 +618,7 @@ Partial Class main
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.显示ToolStripMenuItem, Me.关于ToolStripMenuItem, Me.退出ToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(153, 92)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(101, 70)
         '
         '显示ToolStripMenuItem
         '
