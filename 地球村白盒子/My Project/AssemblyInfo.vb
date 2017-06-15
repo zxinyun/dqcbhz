@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' 查看程序集特性的值
 
-<Assembly: AssemblyTitle("地球村白盒子2.0")>
+<Assembly: AssemblyTitle("地球村白盒子3.0")> 
 <Assembly: AssemblyDescription("这个小东西只是方便像我一样有健忘症的村民，纯粹无聊之作！")> 
 <Assembly: AssemblyCompany("广东地球村计算机系统股份有限公司")> 
 <Assembly: AssemblyProduct("地球村白盒子")> 
-<Assembly: AssemblyCopyright("Copyright ©  2015.2 by 洋芋哥")> 
+<Assembly: AssemblyCopyright("Copyright ©  2015.2-forever by 洋芋哥")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' 方法是按如下所示使用“*”:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2.0.0.0")>
-<Assembly: AssemblyFileVersion("2.0.0.0")>
+<Assembly: AssemblyVersion("3.0.0.0")> 
+<Assembly: AssemblyFileVersion("3.0.0.0")> 

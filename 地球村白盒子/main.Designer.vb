@@ -73,6 +73,10 @@ Partial Class main
         Me.软件说明ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.退出ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LinkLabel7 = New System.Windows.Forms.LinkLabel()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -91,29 +95,28 @@ Partial Class main
         Me.LinkLabel1.Size = New System.Drawing.Size(68, 17)
         Me.LinkLabel1.TabIndex = 0
         Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Tag = "http://bbs.evsoft.cn:90/portal.php"
+        Me.LinkLabel1.Tag = "http://bbs.evsoft.cn"
         Me.LinkLabel1.Text = "地球村论坛"
         '
         'LinkLabel2
         '
         Me.LinkLabel2.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Enabled = False
         Me.LinkLabel2.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel2.Location = New System.Drawing.Point(26, 58)
+        Me.LinkLabel2.Location = New System.Drawing.Point(26, 57)
         Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(92, 17)
+        Me.LinkLabel2.Size = New System.Drawing.Size(116, 17)
         Me.LinkLabel2.TabIndex = 1
         Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Tag = "http://exam.evsoft.cn/Login2.asp"
-        Me.LinkLabel2.Text = "地球村考试系统"
+        Me.LinkLabel2.Tag = "http://125.90.88.169:88"
+        Me.LinkLabel2.Text = "地球村培训考试系统"
         '
         'LinkLabel3
         '
         Me.LinkLabel3.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel3.AutoSize = True
         Me.LinkLabel3.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel3.Location = New System.Drawing.Point(26, 97)
+        Me.LinkLabel3.Location = New System.Drawing.Point(26, 95)
         Me.LinkLabel3.Name = "LinkLabel3"
         Me.LinkLabel3.Size = New System.Drawing.Size(91, 17)
         Me.LinkLabel3.TabIndex = 2
@@ -126,7 +129,7 @@ Partial Class main
         Me.LinkLabel4.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel4.AutoSize = True
         Me.LinkLabel4.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel4.Location = New System.Drawing.Point(26, 253)
+        Me.LinkLabel4.Location = New System.Drawing.Point(26, 209)
         Me.LinkLabel4.Name = "LinkLabel4"
         Me.LinkLabel4.Size = New System.Drawing.Size(68, 17)
         Me.LinkLabel4.TabIndex = 3
@@ -139,13 +142,13 @@ Partial Class main
         Me.LinkLabel5.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel5.AutoSize = True
         Me.LinkLabel5.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel5.Location = New System.Drawing.Point(26, 136)
+        Me.LinkLabel5.Location = New System.Drawing.Point(26, 285)
         Me.LinkLabel5.Name = "LinkLabel5"
-        Me.LinkLabel5.Size = New System.Drawing.Size(127, 17)
+        Me.LinkLabel5.Size = New System.Drawing.Size(80, 17)
         Me.LinkLabel5.TabIndex = 4
         Me.LinkLabel5.TabStop = True
-        Me.LinkLabel5.Tag = "http://it.evsoft.com.cn"
-        Me.LinkLabel5.Text = "地球村IT服务管理系统"
+        Me.LinkLabel5.Tag = "http://qujing.evsoft.cn"
+        Me.LinkLabel5.Text = "曲靖手机维护"
         '
         'TabControl1
         '
@@ -160,7 +163,7 @@ Partial Class main
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.ShowToolTips = True
-        Me.TabControl1.Size = New System.Drawing.Size(516, 438)
+        Me.TabControl1.Size = New System.Drawing.Size(516, 426)
         Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.TabControl1.TabIndex = 5
         '
@@ -199,7 +202,7 @@ Partial Class main
         Me.TabPage1.Location = New System.Drawing.Point(4, 4)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(508, 408)
+        Me.TabPage1.Size = New System.Drawing.Size(508, 396)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "地球村OA"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -207,7 +210,7 @@ Partial Class main
         'Button11
         '
         Me.Button11.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button11.Location = New System.Drawing.Point(387, 171)
+        Me.Button11.Location = New System.Drawing.Point(387, 129)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(94, 27)
         Me.Button11.TabIndex = 28
@@ -221,7 +224,7 @@ Partial Class main
         Me.Label12.AutoSize = True
         Me.Label12.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label12.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Label12.Location = New System.Drawing.Point(177, 175)
+        Me.Label12.Location = New System.Drawing.Point(177, 133)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(143, 17)
         Me.Label12.TabIndex = 27
@@ -233,7 +236,7 @@ Partial Class main
         Me.LinkLabel10.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel10.AutoSize = True
         Me.LinkLabel10.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel10.Location = New System.Drawing.Point(26, 175)
+        Me.LinkLabel10.Location = New System.Drawing.Point(26, 133)
         Me.LinkLabel10.Name = "LinkLabel10"
         Me.LinkLabel10.Size = New System.Drawing.Size(87, 17)
         Me.LinkLabel10.TabIndex = 26
@@ -244,7 +247,7 @@ Partial Class main
         'Button10
         '
         Me.Button10.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button10.Location = New System.Drawing.Point(387, 327)
+        Me.Button10.Location = New System.Drawing.Point(387, 319)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(94, 27)
         Me.Button10.TabIndex = 25
@@ -259,30 +262,30 @@ Partial Class main
         Me.Label11.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label11.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.Label11.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label11.Location = New System.Drawing.Point(176, 331)
+        Me.Label11.Location = New System.Drawing.Point(176, 323)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(388, 17)
+        Me.Label11.Size = New System.Drawing.Size(113, 17)
         Me.Label11.TabIndex = 24
-        Me.Label11.Tag = "地球村知识库"
-        Me.Label11.Text = "http://doc.evsoft.cn:8080/share/page/site/evsoft/documentlibrary"
+        Me.Label11.Tag = "汕头ICT业务管理系统"
+        Me.Label11.Text = "http://wx.evsoft.cn"
         '
         'LinkLabel9
         '
         Me.LinkLabel9.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel9.AutoSize = True
         Me.LinkLabel9.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel9.Location = New System.Drawing.Point(26, 331)
+        Me.LinkLabel9.Location = New System.Drawing.Point(26, 323)
         Me.LinkLabel9.Name = "LinkLabel9"
-        Me.LinkLabel9.Size = New System.Drawing.Size(80, 17)
+        Me.LinkLabel9.Size = New System.Drawing.Size(123, 17)
         Me.LinkLabel9.TabIndex = 23
         Me.LinkLabel9.TabStop = True
-        Me.LinkLabel9.Tag = "http://doc.evsoft.cn:8080/share/page/site/evsoft/documentlibrary"
-        Me.LinkLabel9.Text = "地球村知识库"
+        Me.LinkLabel9.Tag = "http://wx.evsoft.cn"
+        Me.LinkLabel9.Text = "汕头ICT业务管理系统"
         '
         'Button9
         '
         Me.Button9.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button9.Location = New System.Drawing.Point(387, 288)
+        Me.Button9.Location = New System.Drawing.Point(387, 243)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(94, 27)
         Me.Button9.TabIndex = 22
@@ -296,7 +299,7 @@ Partial Class main
         Me.Label10.AutoSize = True
         Me.Label10.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label10.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Label10.Location = New System.Drawing.Point(177, 292)
+        Me.Label10.Location = New System.Drawing.Point(177, 247)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(119, 17)
         Me.Label10.TabIndex = 21
@@ -308,7 +311,7 @@ Partial Class main
         Me.LinkLabel8.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel8.AutoSize = True
         Me.LinkLabel8.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel8.Location = New System.Drawing.Point(26, 292)
+        Me.LinkLabel8.Location = New System.Drawing.Point(26, 247)
         Me.LinkLabel8.Name = "LinkLabel8"
         Me.LinkLabel8.Size = New System.Drawing.Size(80, 17)
         Me.LinkLabel8.TabIndex = 20
@@ -320,7 +323,7 @@ Partial Class main
         '
         Me.CheckBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(224, 371)
+        Me.CheckBox2.Location = New System.Drawing.Point(224, 359)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(111, 21)
         Me.CheckBox2.TabIndex = 19
@@ -330,7 +333,7 @@ Partial Class main
         'Button8
         '
         Me.Button8.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button8.Location = New System.Drawing.Point(387, 249)
+        Me.Button8.Location = New System.Drawing.Point(387, 205)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(94, 27)
         Me.Button8.TabIndex = 18
@@ -340,7 +343,7 @@ Partial Class main
         'Button7
         '
         Me.Button7.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button7.Location = New System.Drawing.Point(387, 210)
+        Me.Button7.Location = New System.Drawing.Point(387, 167)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(94, 27)
         Me.Button7.TabIndex = 17
@@ -350,7 +353,7 @@ Partial Class main
         'Button6
         '
         Me.Button6.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button6.Location = New System.Drawing.Point(387, 132)
+        Me.Button6.Location = New System.Drawing.Point(387, 281)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(94, 27)
         Me.Button6.TabIndex = 16
@@ -360,7 +363,7 @@ Partial Class main
         'Button5
         '
         Me.Button5.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button5.Location = New System.Drawing.Point(387, 93)
+        Me.Button5.Location = New System.Drawing.Point(387, 91)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(94, 27)
         Me.Button5.TabIndex = 15
@@ -370,8 +373,7 @@ Partial Class main
         'Button4
         '
         Me.Button4.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button4.Enabled = False
-        Me.Button4.Location = New System.Drawing.Point(387, 54)
+        Me.Button4.Location = New System.Drawing.Point(387, 53)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(94, 27)
         Me.Button4.TabIndex = 14
@@ -392,7 +394,7 @@ Partial Class main
         '
         Me.CheckBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(380, 371)
+        Me.CheckBox1.Location = New System.Drawing.Point(380, 359)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(99, 21)
         Me.CheckBox1.TabIndex = 12
@@ -406,7 +408,7 @@ Partial Class main
         Me.Label6.AutoSize = True
         Me.Label6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label6.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Label6.Location = New System.Drawing.Point(177, 214)
+        Me.Label6.Location = New System.Drawing.Point(177, 171)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(122, 17)
         Me.Label6.TabIndex = 11
@@ -420,12 +422,12 @@ Partial Class main
         Me.Label5.AutoSize = True
         Me.Label5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label5.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Label5.Location = New System.Drawing.Point(177, 136)
+        Me.Label5.Location = New System.Drawing.Point(177, 285)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(133, 17)
+        Me.Label5.Size = New System.Drawing.Size(134, 17)
         Me.Label5.TabIndex = 10
-        Me.Label5.Tag = "地球村IT服务管理系统"
-        Me.Label5.Text = "http://it.evsoft.com.cn"
+        Me.Label5.Tag = "曲靖手机维护"
+        Me.Label5.Text = "http://qujing.evsoft.cn"
         '
         'Label4
         '
@@ -434,7 +436,7 @@ Partial Class main
         Me.Label4.AutoSize = True
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Label4.Location = New System.Drawing.Point(177, 253)
+        Me.Label4.Location = New System.Drawing.Point(177, 209)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(157, 17)
         Me.Label4.TabIndex = 9
@@ -448,7 +450,7 @@ Partial Class main
         Me.Label3.AutoSize = True
         Me.Label3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Label3.Location = New System.Drawing.Point(177, 97)
+        Me.Label3.Location = New System.Drawing.Point(177, 95)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(146, 17)
         Me.Label3.TabIndex = 8
@@ -461,14 +463,13 @@ Partial Class main
         Me.Label2.AutoEllipsis = True
         Me.Label2.AutoSize = True
         Me.Label2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label2.Enabled = False
         Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.Label2.Location = New System.Drawing.Point(177, 58)
+        Me.Label2.Location = New System.Drawing.Point(177, 57)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(157, 17)
+        Me.Label2.Size = New System.Drawing.Size(140, 17)
         Me.Label2.TabIndex = 7
-        Me.Label2.Tag = "地球村考试系统"
-        Me.Label2.Text = "http://exam.evsoft.com.cn"
+        Me.Label2.Tag = "地球村培训考试系统"
+        Me.Label2.Text = "http://125.90.88.169:88"
         '
         'Label1
         '
@@ -490,7 +491,7 @@ Partial Class main
         Me.LinkLabel6.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LinkLabel6.AutoSize = True
         Me.LinkLabel6.Font = New System.Drawing.Font("微软雅黑", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel6.Location = New System.Drawing.Point(26, 214)
+        Me.LinkLabel6.Location = New System.Drawing.Point(26, 171)
         Me.LinkLabel6.Name = "LinkLabel6"
         Me.LinkLabel6.Size = New System.Drawing.Size(92, 17)
         Me.LinkLabel6.TabIndex = 5
@@ -548,13 +549,17 @@ Partial Class main
         '
         'TabPage3
         '
+        Me.TabPage3.Controls.Add(Me.Label16)
+        Me.TabPage3.Controls.Add(Me.Label15)
+        Me.TabPage3.Controls.Add(Me.Label14)
+        Me.TabPage3.Controls.Add(Me.Label13)
         Me.TabPage3.Controls.Add(Me.Label9)
         Me.TabPage3.Controls.Add(Me.Label8)
         Me.TabPage3.Controls.Add(Me.Label7)
         Me.TabPage3.Controls.Add(Me.PictureBox1)
         Me.TabPage3.Location = New System.Drawing.Point(4, 4)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(508, 408)
+        Me.TabPage3.Size = New System.Drawing.Size(508, 396)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "关于"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -565,11 +570,11 @@ Partial Class main
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Green
-        Me.Label9.Location = New System.Drawing.Point(57, 284)
+        Me.Label9.Location = New System.Drawing.Point(68, 313)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(327, 25)
         Me.Label9.TabIndex = 4
-        Me.Label9.Text = "祝所有同事工作进步，猴年大吉！"
+        Me.Label9.Text = "祝所有同事工作进步，事事顺心！"
         '
         'Label8
         '
@@ -577,7 +582,7 @@ Partial Class main
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Green
-        Me.Label8.Location = New System.Drawing.Point(8, 232)
+        Me.Label8.Location = New System.Drawing.Point(32, 266)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(411, 25)
         Me.Label8.TabIndex = 2
@@ -591,9 +596,9 @@ Partial Class main
         Me.Label7.ForeColor = System.Drawing.Color.Green
         Me.Label7.Location = New System.Drawing.Point(8, 158)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(247, 25)
+        Me.Label7.Size = New System.Drawing.Size(61, 25)
         Me.Label7.TabIndex = 1
-        Me.Label7.Text = "友情制作（By holley）："
+        Me.Label7.Text = "PS："
         '
         'PictureBox1
         '
@@ -662,20 +667,62 @@ Partial Class main
         Me.LinkLabel7.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LinkLabel7.AutoSize = True
         Me.LinkLabel7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LinkLabel7.Location = New System.Drawing.Point(416, 420)
+        Me.LinkLabel7.Location = New System.Drawing.Point(416, 408)
         Me.LinkLabel7.Name = "LinkLabel7"
         Me.LinkLabel7.Size = New System.Drawing.Size(98, 15)
         Me.LinkLabel7.TabIndex = 6
         Me.LinkLabel7.TabStop = True
-        Me.LinkLabel7.Tag = "http://www.ynevsoft.com"
+        Me.LinkLabel7.Tag = "http://www.yndqc.com"
         Me.LinkLabel7.Text = "design by 洋芋哥"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.Red
+        Me.Label13.Location = New System.Drawing.Point(62, 170)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(327, 20)
+        Me.Label13.TabIndex = 5
+        Me.Label13.Text = "All system accounts are your full name spelling."
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("微软雅黑", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label14.ForeColor = System.Drawing.Color.Red
+        Me.Label14.Location = New System.Drawing.Point(62, 213)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(333, 20)
+        Me.Label14.TabIndex = 6
+        Me.Label14.Text = "All system passwords are synchronized with MIS."
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.ForeColor = System.Drawing.Color.Green
+        Me.Label15.Location = New System.Drawing.Point(109, 190)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(236, 17)
+        Me.Label15.TabIndex = 7
+        Me.Label15.Text = "（白盒子中所有系统账户为你的姓名全拼）"
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.ForeColor = System.Drawing.Color.Green
+        Me.Label16.Location = New System.Drawing.Point(110, 233)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(235, 17)
+        Me.Label16.TabIndex = 8
+        Me.Label16.Text = "（白盒子中所有系统密码与MIS系统同步）"
         '
         'main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(516, 438)
+        Me.ClientSize = New System.Drawing.Size(516, 426)
         Me.Controls.Add(Me.LinkLabel7)
         Me.Controls.Add(Me.TabControl1)
         Me.Font = New System.Drawing.Font("宋体", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
@@ -684,7 +731,7 @@ Partial Class main
         Me.Name = "main"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "地球村白盒子2.0"
+        Me.Text = "地球村白盒子3.0"
         Me.TopMost = True
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
@@ -747,5 +794,9 @@ Partial Class main
     Friend WithEvents Button11 As System.Windows.Forms.Button
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents LinkLabel10 As System.Windows.Forms.LinkLabel
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label15 As System.Windows.Forms.Label
 
 End Class

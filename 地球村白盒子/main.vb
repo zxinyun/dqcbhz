@@ -24,13 +24,12 @@ Public Class main
     End Sub
 
     Private Sub 作者围脖ToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles 作者围脖ToolStripMenuItem.Click
-        Process.Start("http://www.ynevsoft.com")
+        Process.Start("http://www.yndqc.com")
         Me.TopMost = False
     End Sub
 
 
     Private Sub main_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
-        ' e.Cancel = False
         Dim tishi As Integer
         tishi = MsgBox("确定关闭白盒子", MsgBoxStyle.Question + MsgBoxStyle.YesNo, "提示")
         Select Case tishi
@@ -47,8 +46,7 @@ Public Class main
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        'Me.Text.PadRight(100)
-        Label11.Text = "http://doc.evsoft.cn:8080/share" + vbNewLine + " /page/site/evsoft/documentlibrary"
+        Label11.Text = "http://wx.evsoft.cn"
     End Sub
     Private Sub TabControl1_Selected(ByVal sender As Object, ByVal e As TabControlEventArgs) Handles TabControl1.Selected
         If e.TabPage.TabIndex = TabPage2.TabIndex Then
@@ -115,10 +113,9 @@ Public Class main
                     MsgBox("设置成功！")
                 Else
                     Reg = CurrentUser.OpenSubKey("Software\Microsoft\Windows\CurrentVersion\Run", True)
-                    'Reg.SetValue("evsoft", "")
                     Reg.DeleteValue("evsoft")
                     Reg.Close()
-                    MsgBox("已取消开机启动！")
+                    MsgBox("已取消白盒子开机启动！")
                 End If
             End If
         Catch ex As Exception
@@ -180,22 +177,13 @@ Public Class main
             FileIO.FileSystem.CreateDirectory("地球村")
         End If
         Dim objWriter = System.IO.File.CreateText(SpecialFolder + "\\" + Title + ".url")
-        'Dim sw As StreamWriter = New System.IO.StreamWriter("objWriter")
         objWriter.WriteLine("[InternetShortcut]")
         objWriter.WriteLine("URL=" + URL)
         objWriter.Close()
     End Sub
 
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
-        'Dim fav As Microsoft.Win32.RegistryKey
-        'Dim favpath As String
-        'fav = CurrentUser.OpenSubKey("Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders", True)
-        'path = fav.GetValue("Favorites")
-        'My.Computer.FileSystem.CurrentDirectory = path
-        'FileIO.FileSystem.CreateDirectory("地球村")
-        'IO.File.Create("地球村\地球村论坛.url")
-        'favpath = Environment.GetFolderPath(Environment.SpecialFolder.Favorites)
-        ' MsgBox(path)
+
         Dim favpath As String
         favpath = Environment.GetFolderPath(Environment.SpecialFolder.Favorites) + "\" + "地球村"
         CreateShortcutFile(LinkLabel1.Text, Label1.Text, favpath)
@@ -253,11 +241,6 @@ Public Class main
         Else
             Directory.Delete("地球村", True)
             MsgBox("已取消添加收藏！")
-            'Try
-            '    My.Computer.FileSystem.DeleteDirectory("地球村", FileIO.DeleteDirectoryOption.ThrowIfDirectoryNonEmpty)
-            'Catch ex As Exception
-            '    MessageBox.Show(ex.ToString)
-            'End Try
         End If
     End Sub
 
@@ -282,7 +265,7 @@ Public Class main
 
     Private Sub Label11_Click(sender As System.Object, e As System.EventArgs) Handles Label11.Click
 
-        Process.Start("http://doc.evsoft.cn:8080/share/page/site/evsoft/documentlibrary")
+        Process.Start("http://wx.evsoft.cn")
     End Sub
 
     Private Sub Button10_Click(sender As System.Object, e As System.EventArgs) Handles Button10.Click
